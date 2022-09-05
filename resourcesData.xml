@@ -1,7 +1,109 @@
 <ResourcesList>
-   <Modules>
-      <Module>
-         <name "TestModule/>
-      </Module>
-   </Modules>
+   <Group
+        name="EngineBuilds">
+      <Setting
+            name="NumBuilds">2</Setting>
+      <Group
+         name="1">
+         <Setting
+                name="buildName">Torque 3D 4.0 Source</Setting>
+         <Setting
+                name="gitPath">https://github.com/TorqueGameEngines/Torque3D</Setting>
+         <Setting
+                name="branchName">v4.0</Setting>
+         <Setting
+                name="isBinary">0</Setting>
+      </Group>
+      <Group
+         name="2">
+         <Setting
+                name="buildName">Torque 3D 4.0 Binaries</Setting>
+         <Setting
+                name="gitPath">https://github.com/TorqueGameEngines/Torque3D-Binaries</Setting>
+         <Setting
+                name="branchName">Torque3D_win_20220409</Setting>
+         <Setting
+                name="isBinary">1</Setting>
+      </Group>
+   </Group>
+   <Group
+        name="Modules">
+      <Setting
+            name="NumModules">2</Setting>
+      <Group
+         name="1">
+         <Setting
+                name="moduleName">Action-Adventure Kit</Setting>
+         <Setting
+                name="description">Implements gameplay and controls for a standard Action-Adventure style third person game</Setting>
+         <Setting
+                name="gitPath">https://github.com/Torque3DResources/AAK</Setting>
+         <Setting
+                name="dependencies"></Setting>
+         <Setting
+                name="hasSourceChanges">1</Setting>
+         <Setting
+                name="specialInstallInstructions">1</Setting>
+      </Group>
+      <Group
+         name="2">
+         <Setting
+                name="moduleName">FPS Gameplay RPK</Setting>
+         <Setting
+                name="description">Rapid Prototype Kit module that implements standard multiplayer FPS gameplay</Setting>
+         <Setting
+                name="gitPath">https://github.com/Torque3DResources/FPSGameplay</Setting>
+         <Setting
+                name="dependencies">FPSEquipment;FPSPlayer;inventorySystem;</Setting>
+         <Setting
+                name="hasSourceChanges">0</Setting>
+         <Setting
+                name="specialInstallInstructions">0</Setting>
+      </Group>
+      <Group
+         name="3">
+         <Setting
+                name="moduleName">FPS Equipment</Setting>
+         <Setting
+                name="description">Implements various default weapons and equipment for an Scifi FPS game</Setting>
+         <Setting
+                name="gitPath">https://github.com/Torque3DResources/FPSEquipment</Setting>
+         <Setting
+                name="dependencies"></Setting>
+         <Setting
+                name="hasSourceChanges">0</Setting>
+         <Setting
+                name="specialInstallInstructions">0</Setting>
+      </Group>
+      <Group
+         name="4">
+         <Setting
+                name="moduleName">FPS Player</Setting>
+         <Setting
+                name="description">Implements a basic example controllable player for use with a Scifi FPS game</Setting>
+         <Setting
+                name="gitPath">https://github.com/Torque3DResources/FPSPlayer</Setting>
+         <Setting
+                name="dependencies"></Setting>
+         <Setting
+                name="hasSourceChanges">0</Setting>
+         <Setting
+                name="specialInstallInstructions">0</Setting>
+      </Group>
+      <Group
+         name="5">
+         <Setting
+                name="moduleName">Inventory System</Setting>
+         <Setting
+                name="description">Implements a simple inventory system</Setting>
+         <Setting
+                name="gitPath">https://github.com/Torque3DResources/inventorySystem</Setting>
+         <Setting
+                name="dependencies"></Setting>
+         <Setting
+                name="hasSourceChanges">0</Setting>
+         <Setting
+                name="specialInstallInstructions">0</Setting>
+      </Group>
+   </Group>
 </ResourcesList>

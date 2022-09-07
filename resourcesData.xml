@@ -41,9 +41,7 @@
          <Setting
                 name="dependencies"></Setting>
          <Setting
-                name="hasSourceChanges">1</Setting>
-         <Setting
-                name="specialInstallInstructions">1</Setting>
+                name="tags">Has Source Files;Special Installation Instruction</Setting>
       </Group>
       <Group
          name="2">
@@ -55,10 +53,6 @@
                 name="gitPath">https://github.com/Torque3DResources/FPSGameplay</Setting>
          <Setting
                 name="dependencies">FPSEquipment;FPSPlayer;inventorySystem;</Setting>
-         <Setting
-                name="hasSourceChanges">0</Setting>
-         <Setting
-                name="specialInstallInstructions">0</Setting>
       </Group>
       <Group
          name="3">
@@ -70,10 +64,6 @@
                 name="gitPath">https://github.com/Torque3DResources/FPSEquipment</Setting>
          <Setting
                 name="dependencies"></Setting>
-         <Setting
-                name="hasSourceChanges">0</Setting>
-         <Setting
-                name="specialInstallInstructions">0</Setting>
       </Group>
       <Group
          name="4">
@@ -85,10 +75,6 @@
                 name="gitPath">https://github.com/Torque3DResources/FPSPlayer</Setting>
          <Setting
                 name="dependencies"></Setting>
-         <Setting
-                name="hasSourceChanges">0</Setting>
-         <Setting
-                name="specialInstallInstructions">0</Setting>
       </Group>
       <Group
          name="5">
@@ -100,10 +86,6 @@
                 name="gitPath">https://github.com/Torque3DResources/inventorySystem</Setting>
          <Setting
                 name="dependencies"></Setting>
-         <Setting
-                name="hasSourceChanges">0</Setting>
-         <Setting
-                name="specialInstallInstructions">0</Setting>
       </Group>
    </Group>
 </ResourcesList>

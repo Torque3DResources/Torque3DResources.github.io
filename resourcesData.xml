@@ -46,7 +46,7 @@
       <Group
          name="2">
          <Setting
-                name="moduleName">FPS Gameplay RPK</Setting>
+                name="moduleName">FPSGameplay</Setting>
          <Setting
                 name="description">Rapid Prototype Kit module that implements standard multiplayer FPS gameplay</Setting>
          <Setting
@@ -57,7 +57,7 @@
       <Group
          name="3">
          <Setting
-                name="moduleName">FPS Equipment</Setting>
+                name="moduleName">FPSEquipment</Setting>
          <Setting
                 name="description">Implements various default weapons and equipment for an Scifi FPS game</Setting>
          <Setting
@@ -68,7 +68,7 @@
       <Group
          name="4">
          <Setting
-                name="moduleName">FPS Player</Setting>
+                name="moduleName">FPSPlayer</Setting>
          <Setting
                 name="description">Implements a basic example controllable player for use with a Scifi FPS game</Setting>
          <Setting
@@ -79,7 +79,7 @@
       <Group
          name="5">
          <Setting
-                name="moduleName">Inventory System</Setting>
+                name="moduleName">InventorySystem</Setting>
          <Setting
                 name="description">Implements a simple inventory system</Setting>
          <Setting

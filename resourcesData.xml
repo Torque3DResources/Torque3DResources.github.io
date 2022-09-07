@@ -29,7 +29,7 @@
    <Group
         name="Modules">
       <Setting
-            name="NumModules">2</Setting>
+            name="NumModules">5</Setting>
       <Group
          name="1">
          <Setting

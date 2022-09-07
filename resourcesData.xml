@@ -41,7 +41,7 @@
          <Setting
                 name="dependencies"></Setting>
          <Setting
-                name="tags">Has Source Files;</Setting>
+                name="tags">Has Source Files;Special Installation Instruction</Setting>
       </Group>
       <Group
          name="2">

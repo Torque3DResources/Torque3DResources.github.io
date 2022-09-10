@@ -29,7 +29,7 @@
    <Group
         name="Modules">
       <Setting
-            name="NumModules">5</Setting>
+            name="NumModules">6</Setting>
       <Group
          name="1">
          <Setting
@@ -90,7 +90,7 @@
                 name="dependencies"></Setting>
       </Group>
       <Group
-         name="5">
+         name="6">
          <Setting
                 name="moduleName">noticeSystem</Setting>
          <Setting

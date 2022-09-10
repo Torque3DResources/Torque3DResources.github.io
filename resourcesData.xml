@@ -100,5 +100,16 @@
          <Setting
                 name="dependencies"></Setting>
       </Group>
+      <Group
+         name="7">
+         <Setting
+                name="moduleName">testMaps</Setting>
+         <Setting
+                name="description">Legacy Test Maps</Setting>
+         <Setting
+                name="gitPath">https://github.com/Torque3DResources/testMaps</Setting>
+         <Setting
+                name="dependencies"></Setting>
+      </Group>
    </Group>
 </ResourcesList>

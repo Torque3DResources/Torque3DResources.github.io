@@ -21,7 +21,7 @@
          <Setting
                 name="gitPath">https://github.com/TorqueGameEngines/Torque3D-Binaries</Setting>
          <Setting
-                name="branchName">Torque3D_win_20220409</Setting>
+                name="branchName">Torque3D_40_{$platform}</Setting>
          <Setting
                 name="isBinary">1</Setting>
       </Group>
@@ -41,7 +41,7 @@
          <Setting
                 name="dependencies"></Setting>
          <Setting
-                name="tags">Has Source Files;Special Installation Instruction</Setting>
+                name="tags">Has Source Files;Special Installation Instruction;Rapid Prototype Kit;</Setting>
       </Group>
       <Group
          name="2">
@@ -52,7 +52,9 @@
          <Setting
                 name="gitPath">https://github.com/Torque3DResources/FPSGameplay</Setting>
          <Setting
-                name="dependencies">FPSEquipment;FPSPlayer;inventorySystem;</Setting>
+                name="dependencies">FPSEquipment;FPSPlayer;</Setting>
+         <Setting
+                name="tags">Rapid Prototype Kit;</Setting>
       </Group>
       <Group
          name="3">
@@ -63,7 +65,7 @@
          <Setting
                 name="gitPath">https://github.com/Torque3DResources/FPSEquipment</Setting>
          <Setting
-                name="dependencies"></Setting>
+                name="dependencies">inventorySystem;</Setting>
       </Group>
       <Group
          name="4">
@@ -84,6 +86,17 @@
                 name="description">Implements a simple inventory system</Setting>
          <Setting
                 name="gitPath">https://github.com/Torque3DResources/inventorySystem</Setting>
+         <Setting
+                name="dependencies"></Setting>
+      </Group>
+      <Group
+         name="5">
+         <Setting
+                name="moduleName">noticeSystem</Setting>
+         <Setting
+                name="description">Implements a simple notice system</Setting>
+         <Setting
+                name="gitPath">https://github.com/Torque3DResources/noticeSystem</Setting>
          <Setting
                 name="dependencies"></Setting>
       </Group>

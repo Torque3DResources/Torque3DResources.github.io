@@ -39,7 +39,7 @@
          <Setting
                 name="gitPath">https://github.com/Torque3DResources/AAK</Setting>
          <Setting
-                name="dependencies"></Setting>
+                name="dependencies">inventorySystem;noticeSystem;</Setting>
          <Setting
                 name="tags">Has Source Files;Special Installation Instruction;Rapid Prototype Kit;</Setting>
       </Group>
@@ -52,7 +52,7 @@
          <Setting
                 name="gitPath">https://github.com/Torque3DResources/FPSGameplay</Setting>
          <Setting
-                name="dependencies">FPSEquipment;FPSPlayer;</Setting>
+                name="dependencies">FPSEquipment;FPSPlayer;noticeSystem;</Setting>
          <Setting
                 name="tags">Rapid Prototype Kit;</Setting>
       </Group>

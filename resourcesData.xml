@@ -2,7 +2,7 @@
    <Group
         name="EngineBuilds">
       <Setting
-            name="NumBuilds">2</Setting>
+            name="NumBuilds">3</Setting>
       <Group
          name="1">
          <Setting
@@ -24,6 +24,17 @@
                 name="branchName">Torque3D_40_{$platform}</Setting>
          <Setting
                 name="isBinary">1</Setting>
+      </Group>
+      <Group
+         name="1">
+         <Setting
+                name="buildName">Latest Torque3D Development</Setting>
+         <Setting
+                name="gitPath">https://github.com/TorqueGameEngines/Torque3D</Setting>
+         <Setting
+                name="branchName"></Setting>
+         <Setting
+                name="isBinary">0</Setting>
       </Group>
    </Group>
    <Group

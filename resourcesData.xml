@@ -26,7 +26,7 @@
                 name="isBinary">1</Setting>
       </Group>
       <Group
-         name="1">
+         name="3">
          <Setting
                 name="buildName">Latest Torque3D Development</Setting>
          <Setting

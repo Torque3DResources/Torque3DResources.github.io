@@ -1,5 +1,10 @@
 <ResourcesList>
    <Group
+        name="ProjectManager">
+      <Setting
+            name="versionNum">0.9</Setting>
+   </Group>
+   <Group
         name="EngineBuilds">
       <Setting
             name="NumBuilds">3</Setting>

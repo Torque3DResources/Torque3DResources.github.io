@@ -132,7 +132,7 @@
          <Setting
                 name="moduleName">twillex</Setting>
          <Setting
-                name="description">twillex</Setting>
+                name="description">object oriented variable tweening utilities</Setting>
          <Setting
                 name="gitPath">https://github.com/Torque3DResources/twillexModule</Setting>
          <Setting

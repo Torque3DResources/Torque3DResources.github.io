@@ -45,7 +45,7 @@
    <Group
         name="Modules">
       <Setting
-            name="NumModules">7</Setting>
+            name="NumModules">8</Setting>
       <Group
          name="1">
          <Setting
@@ -124,6 +124,17 @@
                 name="description">Legacy Test Maps</Setting>
          <Setting
                 name="gitPath">https://github.com/Torque3DResources/testMaps</Setting>
+         <Setting
+                name="dependencies"></Setting>
+      </Group>
+      <Group
+         name="8">
+         <Setting
+                name="moduleName">twillex</Setting>
+         <Setting
+                name="description">twillex</Setting>
+         <Setting
+                name="gitPath">https://github.com/Torque3DResources/twillexModule</Setting>
          <Setting
                 name="dependencies"></Setting>
       </Group>

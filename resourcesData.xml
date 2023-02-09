@@ -11,22 +11,22 @@
       <Group
          name="1">
          <Setting
-                name="buildName">Torque 3D 4.0.2 Source</Setting>
+                name="buildName">Torque 3D 4.0.3 Source</Setting>
          <Setting
                 name="gitPath">https://github.com/TorqueGameEngines/Torque3D</Setting>
          <Setting
-                name="branchName">v4.0.2</Setting>
+                name="branchName">v4.0.3</Setting>
          <Setting
                 name="isBinary">0</Setting>
       </Group>
       <Group
          name="2">
          <Setting
-                name="buildName">Torque 3D 4.0.2 Binaries</Setting>
+                name="buildName">Torque 3D 4.0.3 Binaries</Setting>
          <Setting
                 name="gitPath">https://github.com/TorqueGameEngines/Torque3D-Binaries</Setting>
          <Setting
-                name="branchName">Torque3D_402_{$platform}</Setting>
+                name="branchName">Torque3D_403_{$platform}</Setting>
          <Setting
                 name="isBinary">1</Setting>
       </Group>

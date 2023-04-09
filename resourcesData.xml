@@ -138,5 +138,16 @@
          <Setting
                 name="dependencies"></Setting>
       </Group>
+      <Group
+         name="9">
+         <Setting
+                name="moduleName">objectiveModule</Setting>
+         <Setting
+                name="description">objective state machine and tracker</Setting>
+         <Setting
+                name="gitPath">https://github.com/Torque3DResources/objectiveModule</Setting>
+         <Setting
+                name="dependencies"></Setting>
+      </Group>
    </Group>
 </ResourcesList>

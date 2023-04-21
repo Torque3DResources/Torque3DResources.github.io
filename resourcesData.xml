@@ -2,7 +2,7 @@
    <Group
         name="ProjectManager">
       <Setting
-            name="versionNum">0.9</Setting>
+            name="versionNum">1.0</Setting>
    </Group>
    <Group
         name="EngineBuilds">

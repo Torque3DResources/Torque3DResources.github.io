@@ -68,7 +68,7 @@
          <Setting
                 name="gitPath">https://github.com/Torque3DResources/FPSGameplay</Setting>
          <Setting
-                name="dependencies">FPSEquipment;FPSPlayer;noticeSystem;</Setting>
+                name="dependencies">FPSEquipment;FPSPlayer;noticeSystem;testMaps;</Setting>
          <Setting
                 name="tags">Rapid Prototype Kit;</Setting>
       </Group>

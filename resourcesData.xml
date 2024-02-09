@@ -149,5 +149,16 @@
          <Setting
                 name="dependencies"></Setting>
       </Group>
+      <Group
+         name="9">
+         <Setting
+                name="moduleName">trapsNTriggers</Setting>
+         <Setting
+                name="description">Classic trap code examples</Setting>
+         <Setting
+                name="gitPath">https://github.com/Torque3DResources/trapsNTriggers</Setting>
+         <Setting
+                name="dependencies">FPSGameplay;</Setting>
+      </Group>
    </Group>
 </ResourcesList>

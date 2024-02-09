@@ -150,7 +150,7 @@
                 name="dependencies"></Setting>
       </Group>
       <Group
-         name="9">
+         name="10">
          <Setting
                 name="moduleName">trapsNTriggers</Setting>
          <Setting

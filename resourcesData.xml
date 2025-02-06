@@ -160,5 +160,18 @@
          <Setting
                 name="dependencies">FPSGameplay;</Setting>
       </Group>
+      <Group
+         name="11">
+         <Setting
+                name="moduleName">libCurl Support</Setting>
+         <Setting
+                name="description">Implements standalone libcurl library compilation, engine wrappers and classes to use it</Setting>
+         <Setting
+                name="gitPath">https://github.com/Torque3DResources/curlModule</Setting>
+         <Setting
+                name="dependencies"></Setting>
+         <Setting
+                name="tags">Has Source Files;Libraries;</Setting>
+      </Group>
    </Group>
 </ResourcesList>

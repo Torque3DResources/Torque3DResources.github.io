@@ -45,7 +45,7 @@
    <Group
         name="Modules">
       <Setting
-            name="NumModules">11</Setting>
+            name="NumModules">13</Setting>
       <Group
          name="1">
          <Setting
@@ -70,7 +70,7 @@
          <Setting
                 name="dependencies">FPSEquipment;FPSPlayer;noticeSystem;testMaps;</Setting>
          <Setting
-                name="tags">Rapid Prototype Kit;</Setting>
+                name="tags">Rapid Prototype Kit; Game Mode;</Setting>
       </Group>
       <Group
          name="3">
@@ -82,6 +82,8 @@
                 name="gitPath">https://github.com/Torque3DResources/FPSEquipment</Setting>
          <Setting
                 name="dependencies">inventorySystem;</Setting>
+         <Setting
+                name="tags">example objects;</Setting>
       </Group>
       <Group
          name="4">
@@ -93,6 +95,8 @@
                 name="gitPath">https://github.com/Torque3DResources/FPSPlayer</Setting>
          <Setting
                 name="dependencies"></Setting>
+         <Setting
+                name="tags">Controllable Object;</Setting>
       </Group>
       <Group
          name="5">
@@ -104,6 +108,8 @@
                 name="gitPath">https://github.com/Torque3DResources/inventorySystem</Setting>
          <Setting
                 name="dependencies"></Setting>
+         <Setting
+                name="tags">general utility;</Setting>
       </Group>
       <Group
          name="6">
@@ -115,6 +121,8 @@
                 name="gitPath">https://github.com/Torque3DResources/noticeSystem</Setting>
          <Setting
                 name="dependencies"></Setting>
+         <Setting
+                name="tags">general utility;</Setting>
       </Group>
       <Group
          name="7">
@@ -137,6 +145,8 @@
                 name="gitPath">https://github.com/Torque3DResources/twillexModule</Setting>
          <Setting
                 name="dependencies"></Setting>
+         <Setting
+                name="tags">general utility;</Setting>
       </Group>
       <Group
          name="9">
@@ -148,6 +158,8 @@
                 name="gitPath">https://github.com/Torque3DResources/objectiveModule</Setting>
          <Setting
                 name="dependencies"></Setting>
+         <Setting
+                name="tags">general utility;</Setting>
       </Group>
       <Group
          name="10">
@@ -159,6 +171,8 @@
                 name="gitPath">https://github.com/Torque3DResources/trapsNTriggers</Setting>
          <Setting
                 name="dependencies">FPSGameplay;</Setting>
+         <Setting
+                name="tags">spawnable objects;</Setting>
       </Group>
       <Group
          name="11">
@@ -172,6 +186,32 @@
                 name="dependencies"></Setting>
          <Setting
                 name="tags">Has Source Files;Libraries;</Setting>
+      </Group>
+      <Group
+         name="12">
+         <Setting
+                name="moduleName">Cheetah</Setting>
+         <Setting
+                name="description">wheeledvehicle example</Setting>
+         <Setting
+                name="gitPath">https://github.com/Torque3DResources/Cheetah.git</Setting>
+         <Setting
+                name="dependencies"></Setting>
+         <Setting
+                name="tags">Controllable Object;</Setting>
+      </Group>
+      <Group
+         name="13">
+         <Setting
+                name="moduleName">racing</Setting>
+         <Setting
+                name="description">barebones racing game mode</Setting>
+         <Setting
+                name="gitPath">https://github.com/Torque3DResources/racing</Setting>
+         <Setting
+                name="dependencies">Cheetah</Setting>
+         <Setting
+                name="tags">Game Mode;</Setting>
       </Group>
    </Group>
 </ResourcesList>

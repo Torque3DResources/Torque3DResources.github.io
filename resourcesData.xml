@@ -216,13 +216,13 @@
       <Group
          name="14">
          <Setting
-                name="moduleName">racing</Setting>
+                name="moduleName">Crane</Setting>
          <Setting
                 name="description">flyingvehicle example</Setting>
          <Setting
                 name="gitPath">https://github.com/Torque3DResources/Crane</Setting>
          <Setting
-                name="dependencies">Cheetah</Setting>
+                name="dependencies"></Setting>
          <Setting
                 name="tags">Controllable Object;</Setting>
       </Group>

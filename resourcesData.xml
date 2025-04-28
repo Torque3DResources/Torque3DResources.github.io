@@ -45,7 +45,7 @@
    <Group
         name="Modules">
       <Setting
-            name="NumModules">13</Setting>
+            name="NumModules">14</Setting>
       <Group
          name="1">
          <Setting
@@ -212,6 +212,19 @@
                 name="dependencies">Cheetah</Setting>
          <Setting
                 name="tags">Game Mode;</Setting>
+      </Group>
+      <Group
+         name="14">
+         <Setting
+                name="moduleName">racing</Setting>
+         <Setting
+                name="description">flyingvehicle example</Setting>
+         <Setting
+                name="gitPath">https://github.com/Torque3DResources/Crane</Setting>
+         <Setting
+                name="dependencies">Cheetah</Setting>
+         <Setting
+                name="tags">Controllable Object;</Setting>
       </Group>
    </Group>
 </ResourcesList>
